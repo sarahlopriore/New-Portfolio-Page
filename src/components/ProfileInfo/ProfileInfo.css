@@ -1,0 +1,27 @@
+.profile-image {
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+    float: left;
+    border-color: #6EA4BF;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.profile-div {
+    color: #0D0A0B;
+    padding-top: 5%;
+}
+
+.profile-text {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #FBFBFF;
+    line-height: 24px;
+    text-align: center;
+    background: #6EA4BF;
+    float: right;
+    padding: 7%;
+}
