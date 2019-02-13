@@ -23,5 +23,8 @@
     text-align: center;
     background: #6EA4BF;
     float: right;
-    padding: 7%;
+    padding: 5.25em;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #6ea4bf;
 }
