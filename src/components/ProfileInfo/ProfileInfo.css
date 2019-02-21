@@ -11,6 +11,8 @@
 .profile-div {
     color: #0D0A0B;
     padding-top: 5%;
+    overflow: auto;
+    padding-bottom: 10%;
 }
 
 .profile-text {
