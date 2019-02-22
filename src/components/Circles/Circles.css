@@ -1,14 +1,13 @@
 .container {
-    /* width: 1080px; */
     margin: 0 auto;
     position: relative;
     height: 860px;
     background-color: #41337A;
 }
 
-a {
+/* a {
     color: #eee;
-}
+} */
 
 .item {
     position: absolute;
@@ -214,7 +213,7 @@ a {
     background: rgba(0, 0, 0, 0.7);
     color: #eee;
     font-family: Helvetica, Verdana, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     /*display: none; */
     -webkit-transform-origin: 0 0;
     -moz-transform-origin: 0 0;

@@ -5,7 +5,7 @@ const Header = () => (
     <header>
 	    <div className="overlay">
             <h1>Sarah Lopriore</h1>
-            <h3>Full Stack Web Developer</h3>
+            <h3 className="subtext">Full Stack Web Developer</h3>
 		</div>
 </header>
 )
