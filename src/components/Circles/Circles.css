@@ -1,8 +1,9 @@
 .container {
-    width: 960px;
+    /* width: 1080px; */
     margin: 0 auto;
     position: relative;
     height: 860px;
+    background-color: #41337A;
 }
 
 a {
@@ -14,8 +15,8 @@ a {
 }
 
 .id1 {
-    top: 0;
-    left: 50px;
+    top: 20px;
+    left: 350px;
 }
 
 .id1 .img {
@@ -28,8 +29,8 @@ a {
 }
 
 .id2 {
-    top: 180px;
-    left: 200px;
+    top: 200px;
+    left: 500px;
 }
 
 .id2 .img {
@@ -43,7 +44,7 @@ a {
 
 .id3 {
     top: 500px;
-    left: 100px;
+    left: 420px;
 }
 
 .id3 .img {
@@ -56,8 +57,8 @@ a {
 }
 
 .id4 {
-    top: 20px;
-    left: 700px;
+    top: 40px;
+    left: 1000px;
 }
 
 .id4 .img {
@@ -70,8 +71,8 @@ a {
 }
 
 .id5 {
-    top: 470px;
-    left: 600px;
+    top: 490px;
+    left: 775px;
 }
 
 .id5 .img {
@@ -84,8 +85,8 @@ a {
 }
 
 .id6 {
-    top: 50px;
-    left: 400px;
+    top: 70px;
+    left: 700px;
 }
 
 .id6 .img {
@@ -98,8 +99,8 @@ a {
 }
 
 .id7 {
-    top: 250px;
-    left: 550px;
+    top: 270px;
+    left: 850px;
 }
 
 .id7 .img {
@@ -284,3 +285,4 @@ a {
     -o-transition-delay: 500ms;
     /* Opera */
 }
+

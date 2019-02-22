@@ -1,0 +1,6 @@
+.diag {
+    width: 100%;
+    border-style: solid;
+    border-width: 100px 0 0 100vw;
+    border-color: transparent #41337A;
+}

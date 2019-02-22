@@ -2,7 +2,7 @@ import React from 'react';
 import './Circles.css';
 
 const Circles = () => (
-    <div className="container">
+    <div className="container block--diagonal">
         <div className="item id1">
             <div className="img"></div>
             <div className="info">
