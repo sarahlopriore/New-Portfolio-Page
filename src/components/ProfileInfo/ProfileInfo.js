@@ -3,7 +3,7 @@ import './ProfileInfo.css';
 
 const ProfileInfo = () => (
     <div className="profile-div">
-        <img className="profile-image" src="./IMG_1732.JPG" alt="Sarah Lopriore" />
+        <img className="profile-image" src="./IMG_17322.JPG" alt="Sarah Lopriore" />
         <div className="profile-text">
             <div>
             I am just beginning my career as a developer, I recently finished school and I have learned a lot. So far I have learned HTML, CSS, JavaScript, JQuery, NodeJS, 

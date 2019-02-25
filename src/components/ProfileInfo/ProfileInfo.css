@@ -20,7 +20,7 @@
     border-radius: 50%;
     font-size: 20px;
     color: #FBFBFF;
-    line-height: 24px;
+    line-height: 21px;
     text-align: center;
     background: #6EA4BF;
     float: right;
@@ -28,4 +28,5 @@
     border-width: 10px;
     border-style: solid;
     border-color: #6ea4bf;
+    font-family: 'Open Sans', sans-serif;
 }

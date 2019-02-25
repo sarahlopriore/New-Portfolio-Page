@@ -20,41 +20,41 @@ footer {
     box-sizing: content-box;
 }
 
-.icon-link.fill.linkedin {
+.icon-link.filled.linkedin {
     background-color: #007bb6;
 }
 
-.icon-link.fill.linkedin:hover {
+.icon-link.filled.linkedin:hover {
     background-color: #C2EFEB;
 }
 
-.icon-link.fill.linkedin:hover .fa-linkedin {
+.icon-link.filled.linkedin:hover .fa-linkedin {
     color: #007bb6;
     transition: color 150ms ease-in-out;
 }
 
-.icon-link.fill.github {
+.icon-link.filled.github {
     background-color: #444;
 }
 
-.icon-link.fill.github:hover {
+.icon-link.filled.github:hover {
     background-color: #C2EFEB;
 }
 
-.icon-link.fill.github:hover .fa-github {
+.icon-link.filled.github:hover .fa-github {
     color: #444;
     transition: color 150ms ease-in-out;
 }
 
-.icon-link.fill.envelope {
+.icon-link.filled.envelope {
     background-color: #333;
 }
 
-.icon-link.fill.envelope:hover {
+.icon-link.filled.envelope:hover {
     background-color: #C2EFEB;
 }
 
-.icon-link.fill.envelope:hover .fa-envelope {
+.icon-link.filled.envelope:hover .fa-envelope {
     color: #333;
     transition: color 150ms ease-in-out;
 }
