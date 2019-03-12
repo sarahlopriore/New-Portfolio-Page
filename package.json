@@ -2,6 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sarahlopriore.github.io/New-Portfolio-Page/",
   "dependencies": {
     "flexboxgrid": "^6.3.1",
     "gh-pages": "^2.0.1",
