@@ -1,26 +1,27 @@
 .profile-image {
     border-radius: 50%;
-    width: 700px;
-    height: 700px;
+    width: 600px;
+    height: 600px;
     float: left;
     border-color: #6EA4BF;
     border-width: 10px;
     border-style: solid;
+    z-index: 10;
 }
 
 .profile-div {
     padding-top: 5%;
-    overflow: auto;
+    /* overflow: auto; */
     padding-bottom: 8%;
 }
 
 .profile-text {
-    width: 700px;
-    height: 700px;
+    width: 30em;
+    height: 30em;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 1.3em;
     color: #FBFBFF;
-    line-height: 21px;
+    line-height: 1.3em;
     text-align: center;
     background: #6EA4BF;
     float: right;
@@ -29,4 +30,20 @@
     border-style: solid;
     border-color: #6ea4bf;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-container {
+    margin-top: -5.50em;
+    z-index: 5;
+}
+
+.box-1 {
+    z-index: 10;
+}
+
+.box-2 {
+    margin-top: -6em;
 }

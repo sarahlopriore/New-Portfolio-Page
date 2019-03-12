@@ -3,6 +3,7 @@
     position: relative;
     height: 860px;
     background-color: #41337A;
+    width: 100%;
 }
 
 .item {
@@ -10,8 +11,8 @@
 }
 
 .id1 {
-    top: 20px;
-    left: 350px;
+    top: 2%;
+    left: 22%;
 }
 
 .id1 .img {
@@ -24,8 +25,8 @@
 }
 
 .id2 {
-    top: 200px;
-    left: 500px;
+    top: 22%;
+    left: 32%;
 }
 
 .id2 .img {
@@ -38,8 +39,8 @@
 }
 
 .id3 {
-    top: 500px;
-    left: 420px;
+    top: 58%;
+    left: 27%;
 }
 
 .id3 .img {
@@ -52,8 +53,8 @@
 }
 
 .id4 {
-    top: 40px;
-    left: 1000px;
+    top: 5%;
+    left: 64%;
 }
 
 .id4 .img {
@@ -66,8 +67,8 @@
 }
 
 .id5 {
-    top: 490px;
-    left: 775px;
+    top: 57%;
+    left: 49%;
 }
 
 .id5 .img {
@@ -80,8 +81,8 @@
 }
 
 .id6 {
-    top: 70px;
-    left: 700px;
+    top: 7%;
+    left: 45%;
 }
 
 .id6 .img {
@@ -94,8 +95,8 @@
 }
 
 .id7 {
-    top: 270px;
-    left: 850px;
+    top: 32%;
+    left: 54%;
 }
 
 .id7 .img {
@@ -155,7 +156,7 @@
     background-clip: padding-box;
     border: 1px solid #eee;
     background-size: 150%;
-    background-position: 50% 10%;
+    background-position: 50% 50%;
     transform: rotate(10deg);
     -ms-transform: rotate(10deg);
     /* IE 9 */
@@ -178,7 +179,7 @@
 
 .item:hover .img {
     background-size: 100%;
-    background-position: 100% 100%;
+    background-position: 50% 50%;
     transform: rotate(0);
     -ms-transform: rotate(0);
     /* IE 9 */
@@ -210,7 +211,7 @@
     background: rgba(0, 0, 0, 0.7);
     color: #FBFBFF;
     font-size: 14px;
-    /*display: none; */
+    /* display: none; */
     -webkit-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
     -o-transform-origin: 0 0;
@@ -225,8 +226,8 @@
     -moz-transform: rotate(90deg);
     /* Firefox */
     position: absolute;
-    top: 0;
-    right: -340px;
+    top: 300px;
+    /* right: -340px; */
     z-index: 1;
     opacity: 0;
     -webkit-transition: all 500ms ease-in-out;
@@ -242,7 +243,8 @@
 
 .item .info.left {
     top: 0;
-    left: -340px;
+    top: 300px;
+    /* left: -340px; */
     -webkit-transform-origin: 100% 0;
     -moz-transform-origin: 100% 0;
     -o-transform-origin: 100% 0;
@@ -322,4 +324,159 @@
 
 span {
     display: inline-flex;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        margin: 0 auto;
+        position: relative;
+        height: 1000px;
+        background-color: #41337A;
+        width: 100%;
+    }
+
+    .id1 {
+        top: 2%;
+        left: 22%;
+    }
+
+    .id2 {
+        top: 42%;
+        left: 2%;
+    }
+
+    .id3 {
+        top: 48%;
+        left: 22%;
+    }
+
+    .id4 {
+        top: 5%;
+        left: 50%;
+    }
+
+    .id5 {
+        top: 50%;
+        left: 49%;
+    }
+
+    .id6 {
+        top: 27%;
+        left: 38%;
+    }
+
+    .id7 {
+        top: 70%;
+        left: 10%;
+    }
+
+    .item .info {
+        width: 400px;
+    }
+
+    .item .info .left{
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        margin: 0 auto;
+        position: relative;
+        height: 1000px;
+        background-color: #41337A;
+        width: 100%;
+    }
+
+    .id1 {
+        top: 2%;
+        left: 22%;
+    }
+
+    .id2 {
+        top: 22%;
+        left: 2%;
+    }
+
+    .id3 {
+        top: 48%;
+        left: 22%;
+    }
+
+    .id4 {
+        top: 5%;
+        left: 50%;
+    }
+
+    .id5 {
+        top: 50%;
+        left: 49%;
+    }
+
+    .id6 {
+        top: 27%;
+        left: 38%;
+    }
+
+    .id7 {
+        top: 70%;
+        left: 10%;
+    }
+
+    .item .info {
+        width: 400px;
+    }
+
+    .item .info .left{
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        margin: 0 auto;
+        position: relative;
+        height: 860px;
+        background-color: #41337A;
+        width: 100%;
+    }
+
+    .id1 {
+        top: 2%;
+        left: 22%;
+    }
+
+    .id2 {
+        top: 22%;
+        left: 32%;
+    }
+
+    .id3 {
+        top: 58%;
+        left: 27%;
+    }
+
+    .id4 {
+        top: 5%;
+        left: 64%;
+    }
+
+    .id5 {
+        top: 57%;
+        left: 49%;
+    }
+
+    .id6 {
+        top: 7%;
+        left: 45%;
+    }
+
+    .id7 {
+        top: 32%;
+        left: 54%;
+    }
 }

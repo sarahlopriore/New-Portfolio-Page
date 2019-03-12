@@ -1,7 +1,25 @@
+/* html {
+  background-image: url("https://images.pexels.com/photos/254770/pexels-photo-254770.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+} */
+
 .App {
   text-align: center;
   margin: 0 auto;
   background-image: url("https://images.pexels.com/photos/254770/pexels-photo-254770.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .main {
