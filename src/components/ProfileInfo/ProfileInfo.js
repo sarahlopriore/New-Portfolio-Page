@@ -5,7 +5,7 @@ const ProfileInfo = () => (
     <div className="profile-div">
     <div className="row center-xs center-sm start-md start-lg">
     <div className="col-md-offset-1 col-lg-offset-1 col-md-6 box-1">
-        <img className="profile-image" src="./IMG_17322.JPG" alt="Sarah Lopriore" />
+        <img className="profile-image" src="./IMG_17322.jpg" alt="Sarah Lopriore" />
         </div>
         </div>
         <div className="row center-xs center-sm">
