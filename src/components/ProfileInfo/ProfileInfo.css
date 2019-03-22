@@ -11,7 +11,7 @@
 
 .profile-div {
     padding-top: 5%;
-    /* overflow: auto; */
+    overflow: hidden;
     padding-bottom: 8%;
 }
 

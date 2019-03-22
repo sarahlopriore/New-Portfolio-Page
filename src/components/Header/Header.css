@@ -1,11 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-    height: 900px;
+	/* height: 900px; */
+	width: 100%;
 }
 
 header {
